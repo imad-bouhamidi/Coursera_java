@@ -1,5 +1,9 @@
 import java.text.DecimalFormat;
-public class conversionMontantLettres {
+
+/**
+ *
+ */
+public class ConversionMontantToLettres {
     private static final String[] lessThantwenty = {
             "",
             "un",
@@ -189,35 +193,35 @@ public class conversionMontantLettres {
 
 
     public static void main(String[] args) {
-        System.out.println( conversionMontantLettres.convert(0));
-        System.out.println( conversionMontantLettres.convert(9));
-        System.out.println( conversionMontantLettres.convert(19));
-        System.out.println( conversionMontantLettres.convert(21));
-        System.out.println( conversionMontantLettres.convert(28));
-        System.out.println( conversionMontantLettres.convert(70));
-        System.out.println( conversionMontantLettres.convert(71));
-        System.out.println( conversionMontantLettres.convert(72));
-        System.out.println( conversionMontantLettres.convert(80));
-        System.out.println( conversionMontantLettres.convert(81));
-        System.out.println( conversionMontantLettres.convert(89));
-        System.out.println( conversionMontantLettres.convert(90));
-        System.out.println( conversionMontantLettres.convert(91));
-        System.out.println( conversionMontantLettres.convert(97));
-        System.out.println( conversionMontantLettres.convert(100));
-        System.out.println( conversionMontantLettres.convert(101));
-        System.out.println( conversionMontantLettres.convert(110));
-        System.out.println( conversionMontantLettres.convert(120));
-        System.out.println( conversionMontantLettres.convert(200));
-        System.out.println( conversionMontantLettres.convert(201));
-        System.out.println( conversionMontantLettres.convert(232));
-        System.out.println( conversionMontantLettres.convert(999));
-        System.out.println( conversionMontantLettres.convert(1000));
-        System.out.println( conversionMontantLettres.convert(1001));
-        System.out.println( conversionMontantLettres.convert(10000));
-        System.out.println( conversionMontantLettres.convert(10001));
-        System.out.println( conversionMontantLettres.convert(100000));
-        System.out.println( conversionMontantLettres.convert(2000000));
-        System.out.println( conversionMontantLettres.convert(2147483647));
+        System.out.println( ConversionMontantToLettres.convert(0));
+        System.out.println( ConversionMontantToLettres.convert(9));
+        System.out.println( ConversionMontantToLettres.convert(19));
+        System.out.println( ConversionMontantToLettres.convert(21));
+        System.out.println( ConversionMontantToLettres.convert(28));
+        System.out.println( ConversionMontantToLettres.convert(70));
+        System.out.println( ConversionMontantToLettres.convert(71));
+        System.out.println( ConversionMontantToLettres.convert(72));
+        System.out.println( ConversionMontantToLettres.convert(80));
+        System.out.println( ConversionMontantToLettres.convert(81));
+        System.out.println( ConversionMontantToLettres.convert(89));
+        System.out.println( ConversionMontantToLettres.convert(90));
+        System.out.println( ConversionMontantToLettres.convert(91));
+        System.out.println( ConversionMontantToLettres.convert(97));
+        System.out.println( ConversionMontantToLettres.convert(100));
+        System.out.println( ConversionMontantToLettres.convert(101));
+        System.out.println( ConversionMontantToLettres.convert(110));
+        System.out.println( ConversionMontantToLettres.convert(120));
+        System.out.println( ConversionMontantToLettres.convert(200));
+        System.out.println( ConversionMontantToLettres.convert(201));
+        System.out.println( ConversionMontantToLettres.convert(232));
+        System.out.println( ConversionMontantToLettres.convert(999));
+        System.out.println( ConversionMontantToLettres.convert(1000));
+        System.out.println( ConversionMontantToLettres.convert(1001));
+        System.out.println( ConversionMontantToLettres.convert(10000));
+        System.out.println( ConversionMontantToLettres.convert(10001));
+        System.out.println( ConversionMontantToLettres.convert(100000));
+        System.out.println( ConversionMontantToLettres.convert(2000000));
+        System.out.println( ConversionMontantToLettres.convert(2147483647));
 
     }
 }
