@@ -29,7 +29,9 @@ public class Article {
     }
 
     public boolean vendre(int nombreUnites){
-        if(nombreUnites > this.quantiteEnStock) return false;
+        if(nombreUnites > this.quantiteEnStock){
+            return false;
+        }
         else{
             this.quantiteEnStock -= nombreUnites;
             return true;
@@ -45,10 +47,12 @@ public class Article {
 
     }
     public boolean equals(Article unArticle){
-        if(unArticle.reference == this.reference && unArticle.intitule.equals(this.intitule)
-                && unArticle.prixHT == this.prixHT && unArticle.quantiteEnStock == this.quantiteEnStock)
+        if(unArticle.reference == this.reference){
             return true;
-        else return false;
+        }
+        else{
+            return false;
+        }
     }
 
 }

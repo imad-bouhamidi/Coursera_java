@@ -58,19 +58,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Article.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Article.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Article.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="12" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.0">
+            <state line="32" column="12" selection-start="856" selection-end="856" vertical-scroll-proportion="0.8717949">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="113" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.76282054">
+            <state line="28" column="113" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -462,16 +462,16 @@
         <state line="235" column="18" selection-start="10169" selection-end="10169" vertical-scroll-proportion="0.31730768" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Article.java">
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="12" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.0">
+        <state line="28" column="113" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/Article.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="113" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.76282054">
+        <state line="32" column="12" selection-start="856" selection-end="856" vertical-scroll-proportion="0.8717949">
           <folding />
         </state>
       </provider>
