@@ -46,7 +46,8 @@ public class Article {
     }
     public boolean equals(Article unArticle){
         if(unArticle.reference == this.reference && unArticle.intitule.equals(this.intitule)
-                && unArticle.prixHT == this.prixHT && unArticle.quantiteEnStock == this.quantiteEnStock) return true;
+                && unArticle.prixHT == this.prixHT && unArticle.quantiteEnStock == this.quantiteEnStock)
+            return true;
         else return false;
     }
 

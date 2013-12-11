@@ -9,26 +9,23 @@ public class De100 {
     }
 
     boolean exact(int chiffre){
-        if(chiffre == valeur){
+        if(chiffre == valeur)
             return true;
-        }else{
+        else
             return false;
-        }
     }
 
     boolean tropGrand(int chiffre){
-        if(chiffre > valeur){
+        if(chiffre > valeur)
             return true;
-        }else{
+        else
             return false;
-        }
     }
 
     boolean tropPetit(int chiffre){
-        if(chiffre < valeur){
+        if(chiffre < valeur)
             return true;
-        }else{
+        else
             return false;
-        }
     }
 }
