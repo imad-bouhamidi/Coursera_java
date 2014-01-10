@@ -33,7 +33,7 @@ public class Bibliotheque{
         return res;
     }
 
-    Document[] chercherDocument(String titre){
+    /*Document[] chercherDocument(String titre){
         int n = 5;
         Document[] doc = new Document[n];
         for(int i = 0; i < n; i++){
@@ -42,7 +42,7 @@ public class Bibliotheque{
             }
         }
         return doc;
-    }
+    }*/
 
     public static void main(String arg[]){
         Bibliotheque b = new Bibliotheque();
