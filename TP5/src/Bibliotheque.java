@@ -33,21 +33,40 @@ public class Bibliotheque{
         return res;
     }
 
-    /*Document[] chercherDocument(String titre){
-        int n = 5;
-        Document[] doc = new Document[n];
-        for(int i = 0; i < n; i++){
-            if(doc.toString().equals(titre)){
-
+    Vector chercherDocument(String titre){
+        Vector<Document> doc = new Vector<Document>();
+        Iterator<Document> index = ensembleDocument.iterator();
+        while(index.hasNext()){
+            if(titre.indexOf(index.next().toString()) == -1){
+                System.out.println("Your document not found :)");
+            }else{
+                doc.addElement(index.next());
             }
         }
         return doc;
-    }*/
+    }
+
+    public void listerDocuments(){
+        Iterator<Document> index = ensembleDocument.iterator();
+        while(index.hasNext()){
+            if(index.next() instanceof Livre){
+                Iterator<Adherent> indexAdherent = ensembleAdherent.iterator();
+                while(indexAdherent.hasNext()){
+                    if(((Livre) index.next()).idEmprunteur == indexAdherent.next().idAdherent){
+                        System.out.println(index.next() + " " + indexAdherent.next());
+                    }
+                }
+            }else{
+                System.out.println(index.next());
+            }
+        }
+    }
 
     public static void main(String arg[]){
         Bibliotheque b = new Bibliotheque();
         Scanner clavier = new Scanner(System.in);
-        String nom;String prenom;
+        String nom;
+        String prenom;
         for(int i = 0; i<3 ; i++){
             System.out.println("entrez le nom");
             nom = clavier.next();
@@ -56,7 +75,7 @@ public class Bibliotheque{
             b.ajouterAdherent(new Adherent(nom, prenom));
         }
 
-        Document d = new Livre("Java","Houda");
+        Document d = new Livre("OCJP6","Bouha");
         b.ajouterDocument(d);
         d = new Journal("le monde", 12,1,2014);
         b.ajouterDocument(d);

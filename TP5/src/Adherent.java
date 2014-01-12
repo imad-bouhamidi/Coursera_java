@@ -5,7 +5,7 @@ public class Adherent{
     private String nom;
     private String prenom;
     private Vector<Livre> panier ;
-    private long idAdherent;
+    long idAdherent;
 
     public Adherent(String nom, String prenom){
         this.nom = nom;
