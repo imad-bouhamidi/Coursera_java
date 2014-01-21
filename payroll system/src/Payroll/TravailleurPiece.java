@@ -28,6 +28,6 @@ public final class TravailleurPiece extends Employe {
     }
 
     public String toString(){
-        return "Travailleur Piece: " + super.toString() + " " + "earn " + this.gains() + " per week.";
+        return "Travailleur Piece: " + super.toString() + ": " + "earn " + this.gains() + " per week.";
     }
 }
