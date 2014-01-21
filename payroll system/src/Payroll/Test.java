@@ -18,6 +18,7 @@ public class Test {
         double hourPrice;
         double perSup;
         Vector<Employe> employee = new Vector<Employe>();
+        Employe employeeTemp;
 
         System.out.println("enter number of employee");
         Scanner keyBoard = new Scanner(System.in);
@@ -46,7 +47,7 @@ public class Test {
                     break;
                 }
                 case 2:{
-                    System.out.println("enter le nom, prenom, salaire, nombre d'Items et le poucentage_Items du Travailleur Piece");
+                    System.out.println("enter le nom, prenom, nombre d'Items et le poucentage_Items du Travailleur Piece");
                     firstName = keyBoard.next();
                     lastName = keyBoard.next();
                     numItems = keyBoard.nextInt();
@@ -71,9 +72,8 @@ public class Test {
 
         Iterator<Employe> index = employee.iterator();
         while(index.hasNext()){
-            if(index.next() instanceof TravailleurHoraire){
-                index.next().toString();
-            }
+            employeeTemp = index.next();
+            System.out.println(employeeTemp.getClass() + " " + employeeTemp);
         }
     }
 }
