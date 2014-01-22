@@ -61,7 +61,7 @@
       <file leaf-file-name="Employe.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Payroll/Employe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="26" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+            <state line="10" column="34" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,16 +79,16 @@
       <file leaf-file-name="TravailleurCommission.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Payroll/TravailleurCommission.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="43" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+            <state line="29" column="47" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TravailleurPiece.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TravailleurPiece.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Payroll/TravailleurPiece.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="60" selection-start="823" selection-end="823" vertical-scroll-proportion="0.7585366">
+            <state line="20" column="94" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,14 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Test.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Payroll/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="67" selection-start="2222" selection-end="2222" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#489#498#0" expanded="true" />
-              </folding>
+            <state line="70" column="98" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.6426282">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,12 +123,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/Payroll/Employe.java" />
-        <option value="$PROJECT_DIR$/src/Payroll/TravailleurCommission.java" />
         <option value="$PROJECT_DIR$/src/Payroll/Patron.java" />
         <option value="$PROJECT_DIR$/src/Payroll/travailleurHoraire.java" />
         <option value="$PROJECT_DIR$/src/Payroll/TravailleurHoraire.java" />
-        <option value="$PROJECT_DIR$/src/Payroll/Test.java" />
         <option value="$PROJECT_DIR$/src/Payroll/TravailleurPiece.java" />
+        <option value="$PROJECT_DIR$/src/Payroll/TravailleurCommission.java" />
+        <option value="$PROJECT_DIR$/src/Payroll/Test.java" />
       </list>
     </option>
   </component>
@@ -293,6 +290,25 @@
         <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -318,25 +334,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -425,8 +422,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27083334" sideWeight="0.6629921" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32872504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27037618" sideWeight="0.67127496" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -493,9 +490,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Payroll/TravailleurHoraire.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="220" selection-end="221" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Payroll/Employe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" />
+        <state line="10" column="34" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Payroll/Patron.java">
@@ -505,27 +509,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Payroll/TravailleurCommission.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="43" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Payroll/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="67" selection-start="2222" selection-end="2222" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#489#498#0" expanded="true" />
-          </folding>
+        <state line="29" column="47" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Payroll/TravailleurHoraire.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="220" selection-end="221" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Payroll/TravailleurPiece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="60" selection-start="823" selection-end="823" vertical-scroll-proportion="0.7585366">
+        <state line="20" column="94" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Payroll/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="98" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.6426282">
           <folding />
         </state>
       </provider>
